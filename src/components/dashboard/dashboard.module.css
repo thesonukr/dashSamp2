@@ -1,0 +1,262 @@
+.container {
+    width: 1820px;
+    height: 206px;
+    flex-shrink: 0;
+    border-radius: 14px;
+    background: var(--Dark02, #15132B);
+    margin-left: 60px;
+    margin-top: 60px;
+    /* Shadow01 */
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.04);
+
+    display: flex;
+}
+
+.arrow{
+    margin-left: 30px;
+    margin-top: 35px;
+}
+
+.sec2{
+    margin-left: 18px;
+
+}
+
+.novemberMenu{
+    display: flex;
+    justify-content: space-around;
+}
+
+.novemberTitle{
+    color: var(--White, #FFF);
+font-family: Cairo;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.novemberDetail{
+    color: var(--Grey-01, #A5A5A5);
+font-family: Open Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.number{
+    color: var(--White, #FFF);
+font-family: Cairo;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left: -20px;
+}
+
+.novPeople{
+    width: 40px;
+height: 40px;
+flex-shrink: 0;
+fill: #C4C4C4;
+stroke-width: 2px;
+stroke: var(--Dark02, #15132B);
+margin-left: -12px;
+}
+.novPeople2{
+    width: 40px;
+height: 40px;
+flex-shrink: 0;
+fill: #C4C4C4;
+stroke-width: 2px;
+stroke: var(--Dark02, #15132B);
+margin-left: -12px;
+}
+
+.novPeople3{
+    margin-left: -14px;
+    margin-top: -14px;
+}
+.inviteBtn{
+    width: 163px;
+height: 42px;
+flex-shrink: 0;
+border-radius: 14px;
+background: var(--Primary, #6418C3);
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 30px;
+}
+.inviteText{
+    color: var(--White, #FFF);
+font-family: Cairo;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left: 10px;
+}
+
+.privateBtn{
+    width: 89px;
+height: 42px;
+flex-shrink: 0;
+border-radius: 14px;
+background: var(--Dark02, #15132B);
+border: 1px solid var(--iris-80, #7879F1);
+margin-left: 20px;
+}
+
+.privateText {
+    color: var(--White, #FFF);
+    font-family: Cairo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.editBtn{
+    width: 78px;
+height: 42px;
+flex-shrink: 0;
+border-radius: 14px;
+background: var(--iris-80, #7879F1);
+margin-left: 20px;
+
+}
+
+.editText {
+    color: var(--White, #FFF);
+    font-family: Cairo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.commentBtn {
+    width: 167px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 14px;
+    border: 1px solid var(--iris-80, #7879F1);
+    background-color: #15132B;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 20px;
+
+}
+
+.commentText {
+    color: var(--White, #FFF);
+    font-family: Cairo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+/* Section 3  */
+.sec3{
+    margin-left: 190px;
+}
+
+.mainMar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 500px;
+}
+
+.marText1{
+    color: var(--White, #FFF);
+font-family: Cairo;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.marText2{
+    width: 91px;
+    color: var(--Grey-01, #A5A5A5);
+font-family: Open Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center !important;
+margin-left: 80px;
+}
+
+.marLogo{
+    width: 68px;
+height: 68px;
+flex-shrink: 0;
+border-radius: 14px;
+background: #FFF;
+
+/* Shadow02 */
+box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.12);
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 18px;
+}
+
+.marDots{
+    width: 24px;
+height: 24px;
+flex-shrink: 0;
+margin-left: 27px;
+
+}
+
+.progress{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 48px;
+    margin-left: 300px;
+    
+}
+
+.progressLabel{
+    color: var(--White, #FFF);
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+/* .progressBar{
+    width: 258px;
+    height: 18px;
+    margin-left: 10px;
+   
+} */
+.progressbar {
+    width: 258px;
+    height: 14px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: var(--Dark04, #1E1C3A);
+    margin-left: 30px;
+    /* margin-top: 100px; */
+}
+
+.progressText{
+    color: var(--White, #FFF);
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+}

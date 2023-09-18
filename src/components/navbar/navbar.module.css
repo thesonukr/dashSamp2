@@ -1,0 +1,134 @@
+.container {
+    width: 1920px;
+    height: 120px;
+    flex-shrink: 0;
+    background: var(--Dark02, #15132B);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.search{
+    width: 491px;
+height: 68px;
+flex-shrink: 0;
+border-radius: 46px;
+background: #211A75 ;
+}
+
+.otherMenu{
+    color: var(--Primary, #6418C3);
+font-family: Cairo;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-decoration-line: underline;
+}
+
+.navIcons{
+    width: 28px;
+height: 28px;
+flex-shrink: 0;
+display: flex;
+}
+
+.novemberMenu{
+    display: flex;
+    flex-direction: column;
+}
+.number{
+    /* color: var(--White, #FFF); */
+    color: var(--Dark01, #0D0B21);
+    font-family: Cairo;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+ 
+
+/* margin-bottom: 100px; */
+}
+.emailNumber2{
+    display: flex;
+    /* flex-direction: row; */
+    width: 26px;
+    align-items: center;
+    justify-content: center;
+height: 26px;
+flex-shrink: 0;
+border-radius: 30px;
+background: var(--Accent02, #E328AF);
+}
+.emailNumber{
+    display: flex;
+    /* flex-direction: row; */
+    width: 26px;
+    align-items: center;
+    justify-content: center;
+height: 26px;
+flex-shrink: 0;
+border-radius: 30px;
+background: var(--Accent02, #5ECFFF);
+}
+
+.circle{
+    margin-left: -14px;
+    margin-top: -14px;
+}
+
+/* Language */
+
+.lang{
+    width: 177px;
+height: 68px;
+flex-shrink: 0;
+border-radius: 46px;
+background: #211A75;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+.flag{
+    width: 28px;
+height: 28px;
+flex-shrink: 0;
+}
+
+.person{
+    margin-left: -60px;
+}
+.langName{
+    color: var(--White, #FFF);
+font-family: Cairo;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.profile{
+    width: 57px;
+height: 57px;
+flex-shrink: 0;
+}
+
+.personName {
+    color: var(--White, #FFF);
+    font-family: Cairo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.personPosition {
+    color: var(--iris-80, #7879F1);
+    text-align: right;
+    font-family: Cairo;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+}

@@ -1,0 +1,134 @@
+.container {
+    width: 345px;
+    height: 1306px;
+    flex-shrink: 0;
+    background: var(--Dark02, #15132B);
+
+    /* Shadow-Black01 */
+    box-shadow: 18px 4px 35px 0px rgba(0, 0, 0, 0.15);
+}
+
+.logo {
+    width: 345px;
+    height: 120px;
+    flex-shrink: 0;
+    background: var(--Dark02, #15132B);
+    align-items: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.title {
+
+    width: 186px;
+    text-align: center;
+    height: 24px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sideMenu {
+    padding-left: 50px;
+}
+
+.menuTitle {
+    color: #C7C7C7;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+
+.menuItem {
+    width: 345px;
+    height: 50px;
+    flex-shrink: 0;
+    background: var(--Dark02, #15132B);
+    display: flex;
+    align-items: center;
+}
+.menuItemName{
+    color: #464366;
+font-family: Cairo;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-left: 26px;
+}
+
+.emailNumber{
+
+    display: flex;
+    width: 29px;
+    align-items: center;
+    justify-content: center;
+height: 29px;
+flex-shrink: 0;
+border-radius: 30px;
+background: var(--Accent01, #5ECFFF);
+margin-left: 82px;
+/* text-align: center; */
+}
+.number{
+    color: var(--White, #FFF);
+font-family: Cairo;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: center;
+align-items:center;
+/* margin-bottom: 100px; */
+}
+
+.arrow{
+margin-left: 15px;
+}
+.arrow2{
+    margin-left: 109px;
+}
+
+.menuItemName2{
+    color: var(--iris-80, #7879F1);
+font-family: Cairo;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-left: 26px;
+}
+
+.newFeature{
+    width: 63px;
+height: 35px;
+flex-shrink: 0;
+border-radius: 30px;
+background: var(--Accent02, #E328AF);
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 62px;
+}
+
+.newFeature2 {
+    color: var(--White, #FFF);
+    font-family: Cairo;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.adde{
+    padding-top: 125px;
+}
+
